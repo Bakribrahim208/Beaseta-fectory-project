@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="كود_x0020_الماده_x0020_الخام" type="xs:string" minOccurs="0" />
+              <xs:element name="اسم_x0020_الماده" type="xs:string" minOccurs="0" />
+              <xs:element name="وحده_x0020_الماده" type="xs:string" minOccurs="0" />
+              <xs:element name="سعر_x0020_الوحده_x0020_من_x0020_الماده" type="xs:string" minOccurs="0" />
+              <xs:element name="الكميه_x0020_المشتريه" type="xs:string" minOccurs="0" />
+              <xs:element name="المبلغ" type="xs:string" minOccurs="0" />
+              <xs:element name="_x0020_اسم_x0020_المورد" type="xs:string" minOccurs="0" />
+              <xs:element name="المبلغ_x0020_الكلي_x0020_المستحق" type="xs:string" minOccurs="0" />
+              <xs:element name="المبلغ_x0020_المدفوع" type="xs:string" minOccurs="0" />
+              <xs:element name="المبلغ_x0020_المتبقي" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

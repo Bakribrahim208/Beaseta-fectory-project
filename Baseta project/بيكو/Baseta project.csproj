@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD386010-FF67-4DC6-A942-953DF479193E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>بيكو</RootNamespace>
+    <AssemblyName>بيكو</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1CE0802A07506BB16D39F5BFCEB2351327684FD0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>بيكو_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=12.7.0.5, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\Desktop\New folder\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="businiss layer\back_order.cs" />
+    <Compile Include="businiss layer\category.cs" />
+    <Compile Include="businiss layer\Custmor.cs" />
+    <Compile Include="businiss layer\Expenses.cs" />
+    <Compile Include="businiss layer\LOG_in.cs" />
+    <Compile Include="businiss layer\orderes_and_exchanges.cs" />
+    <Compile Include="businiss layer\products.cs" />
+    <Compile Include="businiss layer\SAFE.cs" />
+    <Compile Include="businiss layer\sales.cs" />
+    <Compile Include="businiss layer\suppliers.cs" />
+    <Compile Include="Data_acess_layer\DataAcess layer.cs" />
+    <Compile Include="businiss layer\users.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_menu.Designer.cs">
+      <DependentUpon>main_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اداره العملاء.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اداره العملاء.Designer.cs">
+      <DependentUpon>اداره العملاء.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اداره المستخدمين.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اداره المستخدمين.Designer.cs">
+      <DependentUpon>اداره المستخدمين.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_المندوبين.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_المندوبين.Designer.cs">
+      <DependentUpon>اداره_المندوبين.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_المواد_الخام.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_المواد_الخام.Designer.cs">
+      <DependentUpon>اداره_المواد_الخام.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_الموردين.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_الموردين.Designer.cs">
+      <DependentUpon>اداره_الموردين.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\استعلامات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\استعلامات.Designer.cs">
+      <DependentUpon>استعلامات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه ماده خام.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه ماده خام.Designer.cs">
+      <DependentUpon>اضافه ماده خام.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه مستخدم.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه مستخدم.Designer.cs">
+      <DependentUpon>اضافه مستخدم.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه منتج.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه منتج.Designer.cs">
+      <DependentUpon>اضافه منتج.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه مورد.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه مورد.Designer.cs">
+      <DependentUpon>اضافه مورد.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه_مندوب.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اضافه_مندوب.Designer.cs">
+      <DependentUpon>اضافه_مندوب.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_المنتجات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اداره_المنتجات.Designer.cs">
+      <DependentUpon>اداره_المنتجات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اعدادات السيرفر.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اعدادات السيرفر.Designer.cs">
+      <DependentUpon>اعدادات السيرفر.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\التقارير.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\التقارير.Designer.cs">
+      <DependentUpon>التقارير.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\المديونات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\المديونات.Designer.cs">
+      <DependentUpon>المديونات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\المرتجعات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\المرتجعات.Designer.cs">
+      <DependentUpon>المرتجعات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\المشتريات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\المشتريات.Designer.cs">
+      <DependentUpon>المشتريات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\تحصيل_مديونيات_خارجيه.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\تحصيل_مديونيات_خارجيه.Designer.cs">
+      <DependentUpon>تحصيل_مديونيات_خارجيه.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\تقرير_المشتريات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\تقرير_المشتريات.Designer.cs">
+      <DependentUpon>تقرير_المشتريات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\جميع_فواتير_البيع.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\جميع_فواتير_البيع.Designer.cs">
+      <DependentUpon>جميع_فواتير_البيع.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\عرض تفاصيل الفاتوره محدده.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\عرض تفاصيل الفاتوره محدده.Designer.cs">
+      <DependentUpon>عرض تفاصيل الفاتوره محدده.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\عرض_اصناف.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\عرض_اصناف.Designer.cs">
+      <DependentUpon>عرض_اصناف.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\فاتوره_موردين.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\فاتوره_موردين.Designer.cs">
+      <DependentUpon>فاتوره_موردين.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\فواتير البيع.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\فواتير البيع.Designer.cs">
+      <DependentUpon>فواتير البيع.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\اذن_صرف.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\اذن_صرف.Designer.cs">
+      <DependentUpon>اذن_صرف.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\لائحه_الاصناف.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\لائحه_الاصناف.Designer.cs">
+      <DependentUpon>لائحه_الاصناف.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presentation_layer\مصروفات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presentation_layer\مصروفات.Designer.cs">
+      <DependentUpon>مصروفات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporting\اذن_الصرف_تقرير.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>اذن_الصرف_تقرير.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporting\تقرير_كل%28المنتجات.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>تقرير_كل%28المنتجات.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporting\طباعه_اذن_الصرف_فورم.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\طباعه_اذن_الصرف_فورم.Designer.cs">
+      <DependentUpon>طباعه_اذن_الصرف_فورم.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\طباعه_فاتوره_شراء_حاليه.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\طباعه_فاتوره_شراء_حاليه.Designer.cs">
+      <DependentUpon>طباعه_فاتوره_شراء_حاليه.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\طباعه_فاتوره_فورم.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\طباعه_فاتوره_فورم.Designer.cs">
+      <DependentUpon>طباعه_فاتوره_فورم.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\طباعه_فاوره.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>طباعه_فاوره.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporting\فاتوره_شراء.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>فاتوره_شراء.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporting\فاتوره_شراء_حاليه_ريبورت.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>فاتوره_شراء_حاليه_ريبورت.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reporting\فاتوره_شراء_فورم.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\فاتوره_شراء_فورم.Designer.cs">
+      <DependentUpon>فاتوره_شراء_فورم.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\كل المنتجات.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\كل المنتجات.Designer.cs">
+      <DependentUpon>كل المنتجات.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\كل_المنتجات_للصنف.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\كل_المنتجات_للصنف.Designer.cs">
+      <DependentUpon>كل_المنتجات_للصنف.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reporting\كل_منتجات_صنف_محدد.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>كل_منتجات_صنف_محدد.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_menu.resx">
+      <DependentUpon>main_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اداره العملاء.resx">
+      <DependentUpon>اداره العملاء.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اداره المستخدمين.resx">
+      <DependentUpon>اداره المستخدمين.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اداره_المندوبين.resx">
+      <DependentUpon>اداره_المندوبين.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اداره_المواد_الخام.resx">
+      <DependentUpon>اداره_المواد_الخام.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اداره_الموردين.resx">
+      <DependentUpon>اداره_الموردين.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\استعلامات.resx">
+      <DependentUpon>استعلامات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اضافه ماده خام.resx">
+      <DependentUpon>اضافه ماده خام.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اضافه مستخدم.resx">
+      <DependentUpon>اضافه مستخدم.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اضافه منتج.resx">
+      <DependentUpon>اضافه منتج.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اضافه مورد.resx">
+      <DependentUpon>اضافه مورد.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اضافه_مندوب.resx">
+      <DependentUpon>اضافه_مندوب.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اداره_المنتجات.resx">
+      <DependentUpon>اداره_المنتجات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اعدادات السيرفر.resx">
+      <DependentUpon>اعدادات السيرفر.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\التقارير.resx">
+      <DependentUpon>التقارير.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\المديونات.resx">
+      <DependentUpon>المديونات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\المرتجعات.resx">
+      <DependentUpon>المرتجعات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\المشتريات.resx">
+      <DependentUpon>المشتريات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\تحصيل_مديونيات_خارجيه.resx">
+      <DependentUpon>تحصيل_مديونيات_خارجيه.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\تقرير_المشتريات.resx">
+      <DependentUpon>تقرير_المشتريات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\جميع_فواتير_البيع.resx">
+      <DependentUpon>جميع_فواتير_البيع.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\عرض تفاصيل الفاتوره محدده.resx">
+      <DependentUpon>عرض تفاصيل الفاتوره محدده.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\عرض_اصناف.resx">
+      <DependentUpon>عرض_اصناف.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\فاتوره_موردين.resx">
+      <DependentUpon>فاتوره_موردين.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\فواتير البيع.resx">
+      <DependentUpon>فواتير البيع.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\اذن_صرف.resx">
+      <DependentUpon>اذن_صرف.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\لائحه_الاصناف.resx">
+      <DependentUpon>لائحه_الاصناف.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presentation_layer\مصروفات.resx">
+      <DependentUpon>مصروفات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reporting\اذن_الصرف_تقرير.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>اذن_الصرف_تقرير.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\تقرير_كل%28المنتجات.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>تقرير_كل%28المنتجات.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\طباعه_اذن_الصرف_فورم.resx">
+      <DependentUpon>طباعه_اذن_الصرف_فورم.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\طباعه_فاتوره_شراء_حاليه.resx">
+      <DependentUpon>طباعه_فاتوره_شراء_حاليه.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\طباعه_فاتوره_فورم.resx">
+      <DependentUpon>طباعه_فاتوره_فورم.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\طباعه_فاوره.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>طباعه_فاوره.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\فاتوره_شراء.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>فاتوره_شراء.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\فاتوره_شراء_حاليه_ريبورت.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>فاتوره_شراء_حاليه_ريبورت.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\فاتوره_شراء_فورم.resx">
+      <DependentUpon>فاتوره_شراء_فورم.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\كل المنتجات.resx">
+      <DependentUpon>كل المنتجات.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\كل_المنتجات_للصنف.resx">
+      <DependentUpon>كل_المنتجات_للصنف.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\كل_منتجات_صنف_محدد.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>كل_منتجات_صنف_محدد.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="بيكو_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1453764498_199_CircledPlus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfdfd.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l%3b.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1111wq.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11111.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1111.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghgg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wqwq.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1w2q.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hggf.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hggf1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1438048483_overview3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ي.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sffdsdfsdfdsfsdf.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hggf2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsdsf.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FB_IMG_1455442662593.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-12-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-12-1281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bag-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart-icon-tm-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456213382_vector_65_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1456213482_Purse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\427701370x356.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11992106_708123659331491_528230389_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

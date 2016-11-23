@@ -1,0 +1,161 @@
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\bin\Debug\بيكو.exe.config
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.csprojResolveAssemblyReference.cache
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.Form1.resources
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.presention_layer.main_menu.resources
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.Properties.Resources.resources
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.csproj.GenerateResource.Cache
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\bin\Debug\بيكو.exe
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\bin\Debug\بيكو.pdb
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\bin\Debug\MetroFramework.dll
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.exe
+c:\users\usersfiles\documents\visual studio 2013\Projects\بيكو\بيكو\obj\Debug\بيكو.pdb
+F:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe.config
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.exe
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.pdb
+F:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe
+F:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.pdb
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.csprojResolveAssemblyReference.cache
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Form1.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Properties.Resources.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.csproj.GenerateResource.Cache
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.main_menu.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_عميل.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_العملاء.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مورد.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_الموردين.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مندوب.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المندوبين.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_منتج.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المنتجات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المواد_الخام.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_ماده_خام.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مستخدم.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المستخدمين.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.فواتير_البيع.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.كل_المنتجات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.جميع_فواتير_البيع.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.عرض_تفاصيل_الفاتوره_محدده.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_فاتوره_فورم.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.التقارير.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.كل_المنتجات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.كل_المنتجات_للصنف.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.عرض_اصناف.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.استعلامات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.فاتوره_موردين.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المشتريات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.فاتوره_شراء_فورم.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_فاتوره_شراء_حاليه.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.مصروفات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_اذن_الصرف_فورم.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المديونات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.تحصيل_مديونيات_خارجيه.resources
+F:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe.manifest
+F:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.application
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.exe.manifest
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.application
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اعدادات_السيرفر.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Main.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.login.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.تقرير_المشتريات.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.hary.resources
+F:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المرتجعات.resources
+E:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe.config
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.exe
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.pdb
+E:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe.manifest
+E:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.application
+E:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe
+E:\لامزوان\بيكو\بيكو\bin\Debug\بيكو.pdb
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.csprojResolveAssemblyReference.cache
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.hary.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Main.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.main_menu.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Form1.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.login.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_العملاء.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المستخدمين.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المندوبين.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المواد_الخام.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_الموردين.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.استعلامات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_ماده_خام.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مستخدم.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_منتج.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مورد.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مندوب.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المنتجات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اعدادات_السيرفر.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.التقارير.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المديونات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المرتجعات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المشتريات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.تحصيل_مديونيات_خارجيه.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.تقرير_المشتريات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.جميع_فواتير_البيع.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.عرض_تفاصيل_الفاتوره_محدده.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.عرض_اصناف.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.فاتوره_موردين.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.فواتير_البيع.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.كل_المنتجات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_عميل.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.مصروفات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Properties.Resources.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_اذن_الصرف_فورم.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_فاتوره_شراء_حاليه.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_فاتوره_فورم.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.فاتوره_شراء_فورم.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.كل_المنتجات.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.كل_المنتجات_للصنف.resources
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.csproj.GenerateResource.Cache
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.exe.manifest
+E:\لامزوان\بيكو\بيكو\obj\Debug\بيكو.application
+G:\my projects\Projects\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe.config
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.exe
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.pdb
+G:\my projects\Projects\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe.manifest
+G:\my projects\Projects\لامزوان\بيكو\بيكو\bin\Debug\بيكو.application
+G:\my projects\Projects\لامزوان\بيكو\بيكو\bin\Debug\بيكو.exe
+G:\my projects\Projects\لامزوان\بيكو\بيكو\bin\Debug\بيكو.pdb
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.csprojResolveAssemblyReference.cache
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.hary.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Main.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.main_menu.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Form1.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.login.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_العملاء.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المستخدمين.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المندوبين.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المواد_الخام.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_الموردين.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.استعلامات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_ماده_خام.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مستخدم.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_منتج.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مورد.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_مندوب.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اداره_المنتجات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اعدادات_السيرفر.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.التقارير.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المديونات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المرتجعات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.المشتريات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.تحصيل_مديونيات_خارجيه.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.تقرير_المشتريات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.جميع_فواتير_البيع.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.عرض_تفاصيل_الفاتوره_محدده.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.عرض_اصناف.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.فاتوره_موردين.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.فواتير_البيع.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.كل_المنتجات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.اضافه_عميل.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.presentation_layer.مصروفات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Properties.Resources.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_اذن_الصرف_فورم.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_فاتوره_شراء_حاليه.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.طباعه_فاتوره_فورم.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.فاتوره_شراء_فورم.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.كل_المنتجات.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.Reporting.كل_المنتجات_للصنف.resources
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.csproj.GenerateResource.Cache
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.exe.manifest
+G:\my projects\Projects\لامزوان\بيكو\بيكو\obj\Debug\بيكو.application

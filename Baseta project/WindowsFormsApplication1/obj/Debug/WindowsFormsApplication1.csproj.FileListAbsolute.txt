@@ -1,0 +1,9 @@
+F:\لامزوان\بيكو\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\لامزوان\بيكو\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+F:\لامزوان\بيكو\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+F:\لامزوان\بيكو\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+F:\لامزوان\بيكو\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\لامزوان\بيكو\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.RibbonForm1.resources
+F:\لامزوان\بيكو\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\لامزوان\بيكو\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\لامزوان\بيكو\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
